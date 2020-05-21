@@ -19,6 +19,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             sqLiteDatabase.execSQL (sql);
     }
 
+
     @Override
     public void onUpgrade (SQLiteDatabase sqLiteDatabase, int i, int i1) {
 
